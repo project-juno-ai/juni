@@ -77,7 +77,6 @@ async def receipt_skill(message):
             current_receipt_chat = None
         else:
             await send_message(juni_response, RECEIPTS_CHANNEL_NAME)
-        
 
 if __name__ == "__main__":
     bot.run(BOT_TOKEN)
